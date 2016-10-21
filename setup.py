@@ -12,6 +12,7 @@ mocked_commands = {
     'install': 'error',
     'mv': 'error',
     'rm': 'debug',
+    'strip': 'debug',
     'tar': 'info',
 }
 
