@@ -13,6 +13,7 @@ mocked_commands = {
     'gzip': 'info',
     'install': 'error',
     'mv': 'error',
+    'ranlib': 'info',
     'rm': 'debug',
     'strip': 'debug',
     'tar': 'info',
