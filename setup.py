@@ -6,11 +6,13 @@ mocked_commands = {
     'cc': 'critical',
     'cp': 'info',
     'cpio': 'info',
+    'dos2unix': 'info',
     'gcc': 'critical',
     'gzip': 'info',
     'install': 'error',
     'mv': 'error',
     'rm': 'debug',
+    'tar': 'info',
 }
 
 setup(
