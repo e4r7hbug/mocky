@@ -1,7 +1,7 @@
 """Mocked POSIX commands."""
+import functools
 import pathlib
 import sys
-import functools
 
 import coloredlogs
 
@@ -13,7 +13,7 @@ def command_squash():
     """Squash command and arguments together."""
     command, *args = sys.argv
     command_name = pathlib.Path(command).name
-    return ' '.join([command_name] + args)
+    return ' '.join(['[{}]'.format(pathlib.Path().absolute()), command_name] + args)
 
 
 debug = functools.partial(LOG.debug, '%s', command_squash())
