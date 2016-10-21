@@ -7,7 +7,6 @@ mocked_commands = {
     'cp': 'info',
     'gcc': 'critical',
     'install': 'error',
-    'mkdir': 'info',
     'mv': 'error',
     'rm': 'debug',
 }
