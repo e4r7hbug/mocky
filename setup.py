@@ -5,7 +5,9 @@ from setuptools import find_packages, setup
 mocked_commands = {
     'cc': 'critical',
     'cp': 'info',
+    'cpio': 'info',
     'gcc': 'critical',
+    'gzip': 'info',
     'install': 'error',
     'mv': 'error',
     'rm': 'debug',
