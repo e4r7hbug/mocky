@@ -9,10 +9,11 @@ setup(
     install_requires=['coloredlogs'],
     entry_points={
         'console_scripts': [
+            'cc = mocky.__main__:critical',
+            'cp = mocky.__main__:info',
+            'gcc = mocky.__main__:critical',
+            'install = mocky.__main__:error',
             'mocky = mocky.__main__:main',
             'rm = mocky.__main__:debug',
-            'cp = mocky.__main__:info',
-            'install = mocky.__main__:error',
-            'gcc = mocky.__main__:critical',
         ],
     }, )
