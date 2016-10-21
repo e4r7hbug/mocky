@@ -3,6 +3,7 @@
 from setuptools import find_packages, setup
 
 mocked_commands = {
+    'ar': 'info',
     'cc': 'critical',
     'cp': 'info',
     'cpio': 'info',
