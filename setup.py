@@ -7,6 +7,7 @@ mocked_commands = {
     'cp': 'info',
     'cpio': 'info',
     'dos2unix': 'info',
+    'g++': 'critical',
     'gcc': 'critical',
     'gzip': 'info',
     'install': 'error',
